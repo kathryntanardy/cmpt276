@@ -1,0 +1,95 @@
+header {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+form {
+    margin-left: 30px;
+}
+
+form>label {
+    display: inline-block;
+    width: 120px;
+}
+
+div {
+    display: inline-block;
+}
+
+table {
+    display: inline;
+}
+
+
+span {
+    margin-left: 170px;
+    display: inline-block;
+}
+
+form>input {
+    pointer-events: auto;
+    width: 65px;
+    text-align: right;
+    font-family: Georgia, serif;
+    color: black;
+    padding: 7px;
+    outline-color: lightgray;
+}
+
+#lb {
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 370px;
+    background-color: rgb(226, 236, 242);
+}
+
+p {
+    margin-left: 40px;
+}
+
+#hg {
+    display: inline-block;
+    width: 350px;
+    margin-top: 20px;
+    background-color: rgb(226, 236, 242);
+}
+
+#newg {
+    display: flow-root;
+    background-color: rgb(226, 236, 242);
+    width: 350px;
+    height: 219px;
+    margin-top: 20px;
+}
+
+label[for='ng'],
+input[id='ng'] {
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.histogramBox {
+    width: 100%;
+    margin: 8px;
+}
+
+.letterGrades {
+    display: inline;
+}
+
+span {
+    background-color: black;
+}
+
+.widthSeparator {
+    width: 35px;
+}
